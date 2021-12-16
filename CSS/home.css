@@ -10,8 +10,11 @@ body, html {
   width: 100%;
   background-color: rgb(255, 252, 244);
 }
+
+/* hero page */
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -20,8 +23,6 @@ body, html {
 .hero-content-wrapper{
   padding-left: 10%;
 }
-
-.jumbotron-hr { border-top:1px solid rgb(255, 252, 244) } 
 
 .hero-menu-link {
   text-decoration: none;
@@ -33,18 +34,20 @@ body, html {
   margin-left: 2rem;
 }
 
+/* content containers */
+
 .section-margin {
   margin-top: 11rem;
   margin-bottom: 11rem;
 }
 
-.footer {
-  background-color: rgb(73, 40, 0);
-}
-
 .section-subtitle p, .section-subtitle h2 {
   line-height:40px;
   margin:0;
+}
+
+.footer {
+  background-color: rgb(73, 40, 0);
 }
 
 /* modal */
@@ -57,7 +60,13 @@ body, html {
   text-align: center;
 }
 
-.carousel-item img{
+.carousel-item img {
   width: auto;
   height: 90vh;
+}
+
+.close {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
 }

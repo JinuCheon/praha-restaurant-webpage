@@ -12,13 +12,21 @@
   <script src="./JS/home.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/home.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
   <main role="main" id="Main">
     <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
       <div class="modal-dialog modal-s">
+        
+        <div class="modal-header">
+          <h5 class="text-light modal-title">Menu</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
         <div class="menu-image-container modal-content">
           <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -32,22 +40,22 @@
 
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/menu1.jpg" class="d-block w-100" alt="...">
+                <img src="images/menu1.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/menu2.jpg" class="d-block w-100" alt="...">
+                <img src="images/menu2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/menu3.jpg" class="d-block w-100" alt="...">
+                <img src="images/menu3.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/menu4.jpg" class="d-block w-100" alt="...">
+                <img src="images/menu4.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/menu5.jpg" class="d-block w-100" alt="...">
+                <img src="images/menu5.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/menu6.jpg" class="d-block w-100" alt="...">
+                <img src="images/menu6.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
 
@@ -73,7 +81,7 @@
           <a class="hero-menu-link link-light h4" href="#Homepage-Operation">운영시간</a></br>
           <a class="hero-menu-link link-light h4" href="#Homepage-Event">스몰웨딩 & 돌잔치 & 모임</a></br>
           <a class="hero-menu-link link-light h4" href="#Homepage-Contact">연락처</a></br>
-          <a class="hero-menu-link link-light h4" href="#Homepage-Location">찾아오시는길</a></br>
+          <a class="hero-menu-link link-light h4" href="#Homepage-Location">오시는길</a></br>
           <p class="lead text-light"></p>
           <button type="button" class="menu-btn btn btn-outline-light btn-lg mt-5 w-50 fs-3" data-bs-toggle="modal"
             data-bs-target="#meuModal">Menu</button>
