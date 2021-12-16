@@ -1,20 +1,41 @@
-html {
-    background-color: gray;
+body, html {
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  background-color: rgb(255, 252, 244);
 }
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-background.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.hero-title {
+  /*  */
 }
 
-.jumbotron-hr { border-top:1px solid white } 
+.jumbotron-hr { border-top:1px solid rgb(255, 252, 244) } 
 
 .hero-menu-link {
-    margin-left: 2rem;
+  text-decoration: none;
+  margin-left: 2rem;
+  color: rgb(255, 252, 244);
 }
 
 .menu-btn {
-    margin-left: 2rem;
+  margin-left: 2rem;
+}
+
+.section-margin {
+  margin-top: 11rem;
+  margin-bottom: 11rem;
+}
+
+.footer {
+  background-color: rgb(73, 40, 0);
+}
+
+.section-subtitle p, .section-subtitle h2 {
+  line-height:40px;
+    margin:0;
 }
