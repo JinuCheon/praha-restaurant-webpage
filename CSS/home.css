@@ -53,14 +53,11 @@ body, html {
   height: 90vh;
 }
 
-.menu-image-container{
+.menu-image-container {
   text-align: center;
 }
 
-.left-menu-image {
-  height: 90vh;
-}
-
-.right-menu-image {
+.carousel-item img{
+  width: auto;
   height: 90vh;
 }
