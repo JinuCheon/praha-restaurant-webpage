@@ -6,29 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./JS/home.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/home.css">
 </head>
 
 <body>
   <main role="main" id="Main">
-    <div class="modal-container"></div>
+    <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="menu-image-container">
+          <img class="left-menu-image" src="./img/menu1.jpg" alt="">
+          <img class="right-menu-image" src="./img/menu2.jpg" alt="">
+        </div>
+      </div>
+    </div>
 
     <div id="Homepage-Hero" class="hero-image">
       <div class="container-fluid row h-100 align-items-center">
         <div class="hero-content-wrapper container">
           <p class="hero-title display-4 text-light mb-5">Praha Restaurant : Steak House</p>
-          <a class="hero-menu-link fs-6 link-light h4" href="#Homepage-Operation">운영시간</a></br>
+          <a class="hero-menu-link link-light h4" href="#Homepage-Operation">운영시간</a></br>
           <a class="hero-menu-link link-light h4" href="#Homepage-Event">스몰웨딩 & 돌잔치 & 모임</a></br>
           <a class="hero-menu-link link-light h4" href="#Homepage-Contact">연락처</a></br>
           <a class="hero-menu-link link-light h4" href="#Homepage-Location">찾아오시는길</a></br>
           <p class="lead text-light"></p>
-          <button type="button" class="menu-btn btn btn-outline-light btn-lg mt-5 w-50">Menu</button>
+          <button type="button" class="menu-btn btn btn-outline-light btn-lg mt-5 w-50 fs-3" data-bs-toggle="modal"
+            data-bs-target="#meuModal">Menu</button>
         </div>
       </div>
-  </div>
+    </div>
 
     <div class="container">
       <div id="Homepage-Operation" class="section-margin container row align-items-center h-100">
@@ -45,6 +56,8 @@
         </div>
       </div>
 
+      <hr>
+
       <div id="Homepage-Event" class="section-margin container row align-items-center h-100">
         <div class="section-header col mx-auto">
           <p class="section-title h2 text-center">Event</p>
@@ -58,6 +71,8 @@
         </div>
       </div>
 
+      <hr>
+
       <div id="Homepage-Contact" class="section-margin container row align-items-center h-100">
         <div class="section-header col mx-auto">
           <p class="section-title h2 text-center">Contact</p>
@@ -69,6 +84,8 @@
         </div>
       </div>
 
+      <hr>
+
       <div id="Homepage-Location" class="section-margin container row align-items-center h-100">
         <div class="section-header col mx-auto">
           <p class="section-title h2 text-center">Location</p>
@@ -79,12 +96,13 @@
         </div>
       </div>
 
-      
+
     </div>
     <div id="Footer" class="footer py-4 container-fluid row">
       <div class="section-header col">
         <div class="section-subtitle">
-          <p class="text-center text-light">경북 안동시 아늑길 10 | Tel: (054)859-3467<br>Copyright © 2020 Andong Praha Restaurant. All rights reserved.</p>
+          <p class="text-center text-light">경북 안동시 아늑길 10 | Tel: (054)859-3467<br>Copyright © 2020 Andong Praha
+            Restaurant. All rights reserved.</p>
         </div>
       </div>
     </div>

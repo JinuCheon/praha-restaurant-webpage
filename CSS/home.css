@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'kyobo';
+  src: url('../ttf/KyoboHandwriting2020pdy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body, html {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", "kyobo";
   width: 100%;
   background-color: rgb(255, 252, 244);
 }
@@ -10,8 +17,8 @@ body, html {
   position: relative;
   height: 100vh;
 }
-.hero-title {
-  /*  */
+.hero-content-wrapper{
+  padding-left: 10%;
 }
 
 .jumbotron-hr { border-top:1px solid rgb(255, 252, 244) } 
@@ -37,5 +44,23 @@ body, html {
 
 .section-subtitle p, .section-subtitle h2 {
   line-height:40px;
-    margin:0;
+  margin:0;
+}
+
+/* modal */
+
+.modal-dialog {
+  height: 90vh;
+}
+
+.menu-image-container{
+  text-align: center;
+}
+
+.left-menu-image {
+  height: 90vh;
+}
+
+.right-menu-image {
+  height: 90vh;
 }
