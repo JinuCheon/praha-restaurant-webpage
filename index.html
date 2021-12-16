@@ -5,13 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="./JS/home.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta name="description" content="안동 최고의 스테이크를 자신하는 프라하 레스토랑 안동시 정하동 스테이크 파스타 스파게티 피자 리소토 필라프 돌잔치 야외웨딩" />
+  <title>안동 프라하 레스토랑</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zl6808ll2x"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/home.css">
 </head>
 
@@ -140,7 +138,8 @@
           <p class="section-title text-center">오시는길</p>
         </div>
         <div class="section-subtitle col">
-          <p class="text-center">지도 추가 예정</p>
+          <div id="map" class="naver-map"></div>
+          <p class="section-title text-center">경북 안동시 아늑길 10</p>
         </div>
       </div>
 
@@ -155,6 +154,7 @@
       </div>
     </div>
   </main>
+  <script src="./scripts/naver-map.js"></script>
 </body>
 
 </html>
