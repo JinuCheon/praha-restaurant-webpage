@@ -1,0 +1,23 @@
+{
+  "name": "praha-restaurant-webpage",
+  "version": "1.0.0",
+  "description": "프라하 레스토랑의 홍보 및 정보제공용 웹페이지입니다.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinuCheon/praha-restaurant-webpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinuCheon/praha-restaurant-webpage/issues"
+  },
+  "homepage": "https://github.com/JinuCheon/praha-restaurant-webpage#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
